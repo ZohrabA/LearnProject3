@@ -1,0 +1,713 @@
+@font-face{
+    font-family: 'BebasNeue Regular';
+    src:url(./BebasNeue-Regular.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'BebasNeue Regular' ;
+    text-decoration: none;
+} 
+* ul{
+    list-style-type: none;
+}
+
+
+header{
+    font-weight: 800;
+    font-size: 25px;
+}
+.logodiv{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+    }
+.butovdiv{
+    background-color:#122a2f;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basliqlar{
+    display: flex;
+    font-family: 'BebasNeue Regular';
+    margin-right: 70px;
+}
+.basliqlar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.basliqlar li a:hover{
+    color: yellow;
+}
+.bossahe{
+    width: 100%;
+    height: 290px;
+    background-color: #0b313a;
+    background-size: 100% 290px;
+}
+.work2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dolusahe{
+    width: 100%;
+    height: 360px;
+    background-color: #122a2f;
+    background-size: 100% 330px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+    
+.yazi{
+    width:300px;
+height: 150px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.sariqutu button{
+    width: 140px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    font-size: 13px;
+    font-weight: 900;
+    border: none;
+}
+.sariqutu button:hover{
+    background-color: red;
+    color:yellow;
+}
+.govde{
+    width: 100%;
+    height: 330px;
+    background-color: white;
+    background-size: 100% 330px;
+}
+
+.govdeyazi{
+    width: 460px;
+    height: 100px;
+    border: none;
+    border-bottom: 3px solid rgb(255, 218, 10);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+.govdeyazi h1{
+    padding-bottom: 20px;
+}
+.yazii{
+    margin-top: 20px;
+    width: 80%;
+color:rgb(85, 85, 85);
+text-align: center;
+}
+.govdeic{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconlar{
+    width: 100%;
+    height: 280px;
+}
+.iconic{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+}
+.icon4{
+    width: 220px;
+    height: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(85, 85, 85);
+}
+.icon4 h1{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    margin: 25px;}
+.icon4 h5{
+    margin: 15px 0 15px 0;
+
+}
+.sekil{
+    width: 90px;
+    height: 90px;
+}
+.icon4 img:hover{
+    background-color:chartreuse;
+}
+.qarasahe{
+    width: 100%;
+    height: 500px;
+    background-size: 100% 400px;
+    background-color:rgb(0, 21, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.qaraic1{
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    color:white;
+    text-align: center;
+}
+.qaraic1 h1{
+    color: yellow;
+    padding: 0  0 20px 0;
+}
+.qaraic2{
+    width: 100%;
+    height: 250;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    text-align: center;
+    justify-content: space-around;
+}
+.qaraicon{
+    width: 100px;
+    height: 200px;
+}
+.qaraicon h1{
+    font-weight: 400;
+    padding: 15px 0;
+}
+.qarasekil{
+    width: 50px;
+    height: 50px;
+}
+.agsahe{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: top center;
+    padding-top: 30px;
+}
+.agyazi1{
+    width: 250px;
+    height: 100px;
+    color: rgb(41, 41, 41);
+    border-bottom: 3px solid yellow;
+    text-align: center;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.agyazi1 h1{
+    color:black;
+    font-weight: 800;
+    padding-top: 8px;
+}
+.agyazi2{
+    color: rgb(41, 41, 41);
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    margin-top: 30px;
+}
+.agmenu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.agmenu h3{
+    margin-right: 10px;
+}
+.agmenu a{
+color: rgb(41, 41, 41);
+margin: 15px;
+}
+.agmenu a:hover{
+color: grey;
+}
+.agsahe2{
+    width: 100%;
+    height: 500px;
+display: flex;
+flex-direction: row;
+}
+.ag1 img{
+    width: 600px;
+    height: 440px;
+    margin-left: 50px;
+}
+.ag2{
+    color: rgb(41, 41, 41);
+    width: 350px;
+    height:440px;
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    align-items:left center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.ag2 h1{
+    color: black;
+    margin-bottom: 15px;
+}
+.ag2 button{
+    color: white;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(199, 199, 1);
+    border: none;
+    margin-top: 15px;
+}
+.ag2 button:hover {
+    color: rgb(206, 206, 2);
+    width: 100px;
+    height: 40px;
+    background-color: black;
+}
+#yazidivi{
+    width: 210px;
+    height: 100%;
+    color: white;
+    background-color: rgb(196, 196, 2);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 100;
+}
+.sekiller{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sekiller img{
+    width: 210px;
+    height: 226px;
+}
+.novbeti{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    color:rgb(41, 41, 41);
+}
+.novbeti h1{
+    color:black;
+    padding-bottom: 30px;
+}
+.novbeti button{
+    width: 100px;
+    height: 40px;
+    background-color:rgb(219, 223, 1);
+    color: white;
+    border:none;
+}
+.novbeti button:hover{
+    background-color:black;
+    color: grey;
+}
+.novbeti h5{
+    margin-bottom: 40px;
+}
+.qaraqutu{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#0b1a1d;
+}
+.yaziqutu{
+    color: rgb(129, 129, 129);
+    text-align: center;
+}
+.yaziqutu h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.qutuqutu{
+    width: 100%;
+    height: 200px;
+    background-color: #0b1a1d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.qarayazi{
+    width: 220px;
+    height: 130px;
+    border: 3px solid rgb(206, 206, 0);
+    color: rgb(206, 206, 0);
+    text-align: center;
+    padding-top: 30px;
+}
+.hh1{
+    color: white;
+}
+.agis{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.agisic1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.agicyazi1{
+    color: rgb(85, 85, 85);
+    text-align: center;
+    border-bottom: 3px solid rgb(211, 211, 2);
+    margin-bottom: 20px;
+}
+.agicyazi1 h1{
+    color:black;
+}
+.agicyazi2{
+    color:rgb(85, 85, 85);
+    width: 80%;
+height: 150px;
+text-align: center;
+}
+.agisic2{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.closee{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.divicidiv1 img{
+    width: 70px;
+    height: 70px;
+}
+.divicidiv2{
+width: 430px;
+height: 70px;
+color:rgb(85, 85, 85);
+}
+.divicidiv2 h3{
+padding-bottom: 20px;
+color:black;
+}
+.agisic3{
+    width: 100%;
+    height: 700px;
+}
+.fin1{
+    width: 100%;
+    height: 200px;
+    color:rgb(85, 85, 85);
+    text-align: center;
+    margin-top: 40px;
+}
+.fin1 h1{
+    color:black;
+    margin-bottom: 40px;
+}
+.finsekil{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.finsekilic1 img{
+width: 300px;
+height: 300px;
+}
+.finsekilic2{
+    text-align: center;
+}
+.finsekilic2 h1{
+    color: rgb(184, 184, 1);
+}
+.finsekilic2 h2{
+    color: black;
+}
+.socialmedia{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #082227 ;
+   
+}
+.socialyazi{
+    color:white;
+    
+}
+.socialyazi h1{
+    color: rgb(218, 218, 1);
+}
+.sociallogo button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.socialmedia-inner{
+    width: 60%;
+    margin: 0 auto;
+}
+.daireli{
+    width: 100%;
+    background-color:#082227;
+    margin-top: 5px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.dairepart1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.dairepart1 h1{
+    margin-bottom: 20px;
+}
+.daireler{
+    width: 150px;
+    color: rgb(219, 223, 0);
+    text-align: center;
+    font-size: 25px;
+}
+.daire1{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: rgb(214, 214, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.daire2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: black;
+    color: rgb(207, 207, 3);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.dairepart2{
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+.mars{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.mars1{
+    width: 90%;
+    color:rgb(85, 85, 85);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.mars1 h1{
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+.mars2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+}
+.marsekil img{
+    width: 80px;
+    height: 80px;
+}
+.bosqara{
+    width: 100%;
+    background-color:rgb(1, 39, 46);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bosqara1{
+    width: 30%;
+    color: white;
+    padding: 50px 0;
+}
+.bosqara2{
+    width: 100px;
+    height: 30px;
+    border-top: 3px solid rgb(201, 201, 4);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.bosqara3{
+    padding-bottom: 40px;
+}
+.bosqara3 button{
+width: 7px;
+height: 7px;
+margin: 0 5px; 
+}
+.sonqara{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.sonqara1{
+    color:rgb(82, 82, 82);
+    width: 250px;
+    border-bottom: 3px solid rgb(204, 204, 0);
+    text-align: center;}
+
+    .sonqara1 h1{
+    color: black;
+    padding: 20px 0;
+    }
+.sonqara2{
+    width: 80%;
+    color:rgb(82, 82, 82);
+    padding-top: 20px;
+}
+.sonqara3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+.emaill{
+    width: 250px;
+    height: 60px;
+    color:rgb(82, 82, 82);
+}
+.sonqara3 h1{
+    color: black;
+}
+.son{
+    width: 100%;
+    background-color: rgb(0, 21, 27);
+}
+.sonyazi{
+    color: white;
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+.qeydiyyat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.qeyy{
+    width: 350px;
+    height: 50px;
+    border: 2px solid grey;
+    background-color: rgb(0, 21, 27);
+    margin-right: 15px;
+}
+.qeydiyyat textarea{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(0, 21, 27);
+   margin-bottom: 30px;
+}
+.elave{
+    width: 100%;
+    margin-left: 190px;
+    padding-bottom: 40px;
+}
+.qeydiyyat button{
+    width: 200px;
+    height: 60px;
+    color: black;
+    background-color: rgb(196, 196, 2);
+    font-weight: 700;
+    border: none;
+}
+.qeydiyyat button:hover{
+    color: rgb(196, 196, 2);
+    background-color: black;
+}
+.foot{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.foot1{
+    color: white;
+    text-align: center;
+}
+.foot1 pre{
+    color:rgb(184, 184, 1);
+}
+.foot2{
+    width: 100%;
+    margin-left: 1220px;
+}
+.foot2 button{
+    width: 50px;
+    height: 60px;
+    color: white;
+    background-color: rgb(201, 201, 4);
+    font-size: 50px;
+}
